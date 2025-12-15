@@ -336,7 +336,10 @@ a {
 .hero-visual img {
     width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius: 20px;
+    mask-image: radial-gradient(circle at center, black 60%, transparent 100%);
+    -webkit-mask-image: radial-gradient(circle at center, black 60%, transparent 100%);
+    transform: scale(1.1);
 }
 
 /* Why Section */
